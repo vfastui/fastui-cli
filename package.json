@@ -1,18 +1,19 @@
 {
-  "name": "bc-cloud-cli",
-  "version": "1.0.0",
-  "description": "cloud前端脚手架",
+  "name": "vfastui-cli",
+  "version": "0.0.1",
+  "description": "vfastui前端脚手架",
   "main": "bin/index.js",
   "bin": {
-    "bc-cloud-cli": "bin/index.js"
+    "vfastui": "bin/index.js"
   },
-  "author": "wshengs",
+  "author": "Wshengs",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.24.0",
     "chalk": "^4.1.2",
     "commander": "^8.3.0",
     "download-git-repo": "^3.0.2",
-    "handlebars": "^4.7.7",
+    "ejs": "^3.1.6",
     "inquirer": "^8.2.0",
     "log-symbols": "^4.1.0",
     "ora": "^5.4.0",
@@ -23,7 +24,6 @@
   "engines": {
     "node": "^12.0.0 || >= 14.0.0"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
