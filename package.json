@@ -1,5 +1,5 @@
 {
-  "name": "vfastui-cli",
+  "name": "@vfastui/cli",
   "version": "0.0.1",
   "description": "vfastui前端脚手架",
   "main": "bin/index.js",
